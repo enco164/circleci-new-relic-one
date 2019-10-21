@@ -1,0 +1,11 @@
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: enco164/nr1-build-circle-ci:0.0.3
+    steps:
+      - run:
+          command: ls -al ~/project
+      - run:
+          name: build-suynthetics-monitors
+          command: npm run build --prefix ./synthetics/monitors

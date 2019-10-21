@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "disagreeable-payment-launcher",
+    "description": "Describe me",
+    "displayName": "DisagreeablePayment",
+    "rootNerdletId": "disagreeable-payment-nerdlet"
+}
